@@ -1,8 +1,4 @@
-# TutorialKit Starter
-
-👋 Welcome to TutorialKit!
-
-This README includes everything you need to start writing your tutorial content quickly.
+# Warp Drive interactive tutorial 
 
 ## Project Structure
 
@@ -14,6 +10,9 @@ This README includes everything you need to start writing your tutorial content 
 │   ├── content
 │   │   └── tutorial    # Your tutorial content lives here
 │   └── templates       # Your templates (see below for more information)
+│       # default-ts and default-js are the blueprint output results, with no modifications
+│       # minimal-ts and minimal-js are the above, but with all the lint dependencies removed to help improve install time.
+│       
 ├── public
 │   ├── favicon.svg
 │   └── logo.svg        # Default logo used in top left for your tutorial
@@ -28,7 +27,7 @@ Make sure you have all dependencies installed and started the dev server:
 
 ```bash
 pnpm install
-pnpm run dev
+pnpm dev
 ```
 
 ## UI Structure
