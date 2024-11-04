@@ -2,6 +2,8 @@ import Route from 'ember-route-template';
 import { pageTitle } from 'ember-page-title';
 import { WelcomePage } from 'ember-welcome-page';
 
+import './example';
+
 export default Route(
   <template>
     {{pageTitle "DemoApp"}}
