@@ -1,7 +1,7 @@
 ---
 type: lesson
 title: Welcome to TutorialKit
-focus: /counter.js
+focus: /templates/application.gts
 ---
 
 # Welcome to TutorialKit
