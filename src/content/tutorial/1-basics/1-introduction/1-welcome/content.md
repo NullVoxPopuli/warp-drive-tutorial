@@ -2,6 +2,7 @@
 type: lesson
 title: Welcome to TutorialKit
 focus: /templates/application.gts
+template: 'minimal-ts'
 ---
 
 # Welcome to TutorialKit
