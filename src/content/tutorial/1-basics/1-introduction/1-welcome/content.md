@@ -1,7 +1,7 @@
 ---
 type: lesson
 title: Welcome to TutorialKit
-focus: /templates/application.gts
+focus: /app/templates/application.gts
 template: 'minimal-ts'
 ---
 
