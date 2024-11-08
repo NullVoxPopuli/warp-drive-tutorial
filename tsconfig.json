@@ -11,6 +11,7 @@
   },
   "exclude": ["dist", "public", "src/content", "node_modules"],
   "references": [
-    { "path": "./tsconfig.content.json" }
+    //{ "path": "./tsconfig.content.json" }
+    { "path": "./src/content/tutorial/tsconfig.json" }
   ]
 }
