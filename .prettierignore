@@ -1,0 +1,6 @@
+# Calm down prettier
+*.html
+*.yml
+*.yaml
+*.json
+*.md
