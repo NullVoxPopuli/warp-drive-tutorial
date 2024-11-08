@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "astro": "astro",
-    "build": "astro check && astro build",
+    "check": "astro check",
+    "build": "astro build",
     "dev": "astro dev",
     "preview": "astro preview",
     "start": "astro dev"

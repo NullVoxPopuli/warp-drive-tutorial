@@ -3,12 +3,13 @@
   "compilerOptions": {
     "jsx": "react-jsx",
     "baseUrl": "./",
+    "outDir": "dist",
     "jsxImportSource": "react",
     "paths": {
       "@*": ["src/*"]
     }
   },
-  "exclude": ["dist"],
+  "exclude": ["dist", "public", "src/content", "node_modules"],
   "references": [
     { "path": "./tsconfig.content.json" }
   ]
