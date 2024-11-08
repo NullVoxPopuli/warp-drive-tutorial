@@ -4,3 +4,4 @@
 *.yaml
 *.json
 *.md
+/src/templates/
