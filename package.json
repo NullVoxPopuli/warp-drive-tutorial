@@ -13,33 +13,33 @@
     "start": "astro dev"
   },
   "dependencies": {
-    "@tutorialkit/react": "1.2.1",
+    "@tutorialkit/react": "1.3.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@astrojs/check": "^0.9.4",
+    "@astrojs/check": "^0.7.0",
     "@astrojs/react": "^3.6.0",
-    "@ember-data/graph": "5.3.9",
-    "@ember-data/json-api": "5.3.9",
-    "@ember-data/request": "5.3.9",
-    "@ember-data/request-utils": "5.3.9",
-    "@ember-data/store": "5.3.9",
-    "@ember-data/tracking": "5.3.9",
+    "@ember-data/graph": "5.3.10",
+    "@ember-data/json-api": "5.3.10",
+    "@ember-data/request": "5.3.10",
+    "@ember-data/request-utils": "5.3.10",
+    "@ember-data/store": "5.3.10",
+    "@ember-data/tracking": "5.3.10",
     "@glint/core": "unstable",
     "@glint/environment-ember-loose": "unstable",
     "@glint/environment-ember-template-imports": "unstable",
     "@glint/template": "unstable",
     "@tsconfig/ember": "^3.0.8",
-    "@tutorialkit/astro": "1.1.1",
-    "@tutorialkit/theme": "1.1.1",
-    "@tutorialkit/types": "1.1.1",
-    "@types/node": "^20.14.6",
-    "@types/react": "^18.3.12",
-    "@warp-drive/build-config": "0.0.0-beta.7",
-    "@warp-drive/core-types": "0.0.0-beta.12",
-    "@warp-drive/ember": "0.0.0-beta.7",
-    "@warp-drive/schema-record": "0.0.0-beta.12",
+    "@tutorialkit/astro": "1.3.1",
+    "@tutorialkit/theme": "1.3.1",
+    "@tutorialkit/types": "1.3.1",
+    "@types/node": "^22.13.1",
+    "@types/react": "^19.0.8",
+    "@warp-drive/build-config": "0.0.0",
+    "@warp-drive/core-types": "0.0.0",
+    "@warp-drive/ember": "0.0.0",
+    "@warp-drive/schema-record": "0.0.0",
     "astro": "^4.16.10",
     "ember-page-title": "^8.2.3",
     "ember-route-template": "^1.0.3",
@@ -49,5 +49,10 @@
     "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-ember-template-tag": "^2.0.2",
     "typescript": "^5.4.5"
+  },
+  "pnpm": {
+    "peerDependencyRules":{
+      "ignoreMissing": ["webpack"]
+    }
   }
 }
