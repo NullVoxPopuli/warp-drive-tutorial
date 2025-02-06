@@ -1,5 +1,5 @@
-import Route from 'ember-route-template';
-import { pageTitle } from 'ember-page-title';
+import Route from "ember-route-template";
+import { pageTitle } from "ember-page-title";
 
 export default Route(
   <template>
@@ -8,5 +8,5 @@ export default Route(
     {{outlet}}
 
     Hello There!
-  </template>
+  </template>,
 );
