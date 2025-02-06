@@ -96,9 +96,6 @@ importers:
       ember-source:
         specifier: ~6.2.0
         version: 6.2.0(@glimmer/component@1.1.2(@babel/core@7.26.7))(@glint/template@1.4.1-unstable.ff9ea6c)(rsvp@4.8.5)
-      ember-welcome-page:
-        specifier: ^7.0.2
-        version: 7.0.2
       prettier:
         specifier: ^4.0.0-alpha.10
         version: 4.0.0-alpha.10
@@ -210,9 +207,6 @@ importers:
       ember-template-lint:
         specifier: ^6.1.0
         version: 6.1.0
-      ember-welcome-page:
-        specifier: ^7.0.2
-        version: 7.0.2
       eslint:
         specifier: ^9.19.0
         version: 9.19.0(jiti@1.21.7)
@@ -432,9 +426,6 @@ importers:
       ember-template-lint:
         specifier: ^6.1.0
         version: 6.1.0
-      ember-welcome-page:
-        specifier: ^7.0.2
-        version: 7.0.2
       eslint:
         specifier: ^9.19.0
         version: 9.19.0(jiti@1.21.7)
@@ -651,9 +642,6 @@ importers:
       ember-template-lint:
         specifier: ^6.1.0
         version: 6.1.0
-      ember-welcome-page:
-        specifier: ^7.0.2
-        version: 7.0.2
       loader.js:
         specifier: ^4.7.0
         version: 4.7.0
@@ -5151,10 +5139,6 @@ packages:
   ember-tracked-storage-polyfill@1.0.0:
     resolution: {integrity: sha512-eL7lZat68E6P/D7b9UoTB5bB5Oh/0aju0Z7PCMi3aTwhaydRaxloE7TGrTRYU+NdJuyNVZXeGyxFxn2frvd3TA==}
     engines: {node: 12.* || >= 14}
-
-  ember-welcome-page@7.0.2:
-    resolution: {integrity: sha512-TyaKxFIRXhODW5BTbqD/by0Gu8Z9B9AA1ki3Bzzm6fOj2b30Qlprtt+XUG52kS0zVNmxYj/WWoT0TsKiU61VOw==}
-    engines: {node: 14.* || 16.* || >= 18}
 
   emmet@2.4.11:
     resolution: {integrity: sha512-23QPJB3moh/U9sT4rQzGgeyyGIrcM+GH5uVYg2C6wZIxAIJq7Ng3QLT79tl8FUwDXhyq9SusfknOrofAKqvgyQ==}
@@ -16592,12 +16576,6 @@ snapshots:
     dependencies:
       ember-cli-babel: 7.26.11
       ember-cli-htmlbars: 5.7.2
-    transitivePeerDependencies:
-      - supports-color
-
-  ember-welcome-page@7.0.2:
-    dependencies:
-      '@embroider/addon-shim': 1.9.0
     transitivePeerDependencies:
       - supports-color
 
